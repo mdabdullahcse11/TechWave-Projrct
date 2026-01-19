@@ -29,6 +29,11 @@
     background: rgba(53, 17, 101, 0.4);
 }
 
+/* Host section */
+.host-bg {
+    background: rgba(53, 17, 101, 0.4);
+}
+
 /* Featured section */
 .feature-bag {
     background: rgba(37, 13, 68, 1);
