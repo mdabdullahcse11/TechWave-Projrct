@@ -14,25 +14,24 @@
     <header>
 <!-- Navbar  -->
         <nav>
-             <div class="flex justify-between items-center px-5 lg:px-[200px] py-6 border-b border-stone-800">
-<!-- Navbar Logo -->
-                <div class="cursor-pointer hover:scale-105">
-                    <h1 class="text-3xl lg:text-4xl text-white font-extrabold">Tech<span class="linear-t">Wave</span></h1>
+             <div class="header">
+            <div class="lg">
+                    <h1 class="logo-text">Tech<span class="linear ">Wave</span></h1>
                 </div>
 <!-- Navbar menu -->
-                <div class="hidden lg:inline">
-                    <ul class="flex items-center gap-8 text-white">
+                <div class="navbar-menu">
+                    <ul class="menu-item">
                         <li><a href="">About</a></li>
                         <li><a href="">Episodes</a></li>
                         <li><a href="">Host</a></li>
                     </ul>
                 </div>
 <!-- Navbar Button -->
-                <div class="hidden lg:inline">
-                    <Button class="text-white px-4 py-2.5 rounded-full btn-1 cursor-pointer ">Subscribe <i class="fa-solid fa-arrow-right-long ml-1"></i></Button>
+                <div class="nav-button">
+                    <Button class="btn-nav">Subscribe <i class="fa-solid fa-arrow-right-long icon-arrow"></i></Button>
                 </div>
  <!-- Hamburg-icon -->
-                <div class="lg:hidden">
+                <div class="large">
                     <img src="./assets/hamburger-menu.png" alt="">
                 </div>
              </div>
@@ -41,23 +40,22 @@
 
 <!-- Banner Section -->
         <section>
-
-            <div class="bg-[url(./assets/hero-bg.png)] py-[100px] flex flex-col gap-6 justify-center items-center bg-center bg-cover">
+            <div class="banner-container ">
 <!-- Banner Image -->
-                 <div class="bg-[url(./assets/hero-circle.png)] bg-no-repeat w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] flex justify-center items-center bg-center bg-cover relative">
-                    <!-- Badge -->
-                     <button class="text-black px-4 py-2 rounded-full bg-green-500 absolute top-1 -right-4 lg:top-4 lg:right-6">New</button>
-                    <div class=""><img class="w-1/2 lg:w-full mx-auto" src="./assets/microphone.png" alt=""></div>
+                 <div class="banner-image">
+                     <button class=" badge">New</button>
+                    <div class=""><img class="banner-micro" src="./assets/microphone.png" alt=""></div>
                  </div>
 <!-- Banner text -->
-                 <div class="px-5">
-                    <h1 class="text-3xl lg:text-4xl text-white mb-2 font-extrabold text-center">TechWave</h1>
-                    <p class="text-gray-400">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                 <div class="h1-t">
+                    <h1 class="h1-bt">TechWave</h1>
+                    <p class="text-gray-500">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                  </div>
+                 
 <!-- Banner-Buttons -->
-                 <div class="flex gap-2 items-center">
-                    <button class="text-white px-4 py-2.5 rounded-full btn-1 cursor-pointer hover:grayscale hover:scale-105"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
-                    <button class="text-green-500 px-4 py-2 rounded-full cursor-pointer hover:grayscale hover:scale-105 border-green-500 border"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                 <div class="b-button">
+                    <button class="btn-spotify"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                    <button class= "btn-green"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                  </div>
             </div>
         </section>     
@@ -66,30 +64,30 @@
       <main>
 <!-- Podcast Section -->
         <section>
-            <div class="px-5 lg:px-[200px] pt-12">
-                <!-- Content -->
-                 <div class="pb-16 border-b border-stone-800 mb-10 lg:mb-20">
-                    <h1 class="text-3xl lg:text-5xl font-bold mb-4 text-white text-center">About The Podcast</h1>
-                    <p class="text-gray-500 mb-4 lg:w-3/5 mx-auto text-center">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
-                    <p class="text-gray-500 lg:w-2/3 mx-auto text-center">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            <div class="podcast-container">
+                 <div class="podcast-1">
+                    <h1 class="heading-podcast">About The Podcast</h1>
+                    <p class="podcast-text">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+                    <p class= "podcast-text2">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
                  </div>
-                 <!-- Cards -->
-                <div class="mb-20 lg:mb-28 grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-36 pl-5">
+                 <!--Podcast Cards -->
+                <div class="podcast-card-container">
                     <div class="">
-                        <h1 class="text-3xl lg:text-5xl text-green-500 font-black mb-3">150K+</h1>
-                        <p class="text-white">MONTHLY LISTENER</p>
+                        <h1 class="h1-green">150K+</h1>
+                        <p class="para-text">MONTHLY LISTENER</p>
+                    </div>
+                    
+                    <div class="">
+                        <h1 class="h1-green">200+</h1>
+                        <p class="para-text">EPISODE PUBLISHED</p>
                     </div>
                     <div class="">
-                        <h1 class="text-3xl lg:text-5xl text-green-500 font-black mb-3">200+</h1>
-                        <p class="text-white">EPISODE PUBLISHED</p>
+                        <h1 class="h1-green "><span>4.9</span> <i class="fa-solid fa-star text-lg lg:text-xl"></i></h1>
+                        <p class="para-text">AVERAGE RATING</p>
                     </div>
                     <div class="">
-                        <h1 class="text-3xl lg:text-5xl text-green-500 font-black mb-3 flex items-center gap-1"><span>4.9</span> <i class="fa-solid fa-star text-lg lg:text-xl"></i></h1>
-                        <p class="text-white">AVERAGE RATING</p>
-                    </div>
-                    <div class="">
-                        <h1 class="text-3xl lg:text-5xl text-green-500 font-black mb-3">50+</h1>
-                        <p class="text-white">INDUSTRY EXPERTS</p>
+                        <h1 class="h1-green">50+</h1>
+                        <p class="para-text">INDUSTRY EXPERTS</p>
                     </div>
                 </div>
             </div>
@@ -97,49 +95,47 @@
 
  <!-- Why Choose Section -->
         <section>
-            <!-- Container -->
-            <div class="W-bg px-5 py-5 lg:px-[200px] lg:py-[120px]">
-                <!-- Title -->
-                <h1 class="text-3xl lg:text-5xl font-bold mb-10 text-white text-center">Why Choose TechWave</h1>
-                <!-- Card container -->
-                <div class="grid gap-8 grid-cols-1 grid-rows-1 lg:grid-cols-3 lg:grid-rows-3">
+            <div class="Why-container">
+                <h1 class="why-title">Why Choose TechWave</h1>
+    <!-- Card container -->
+                <div class="card-container">
                     <!-- card 1 -->
-                    <div class="c-bg p-10 rounded-4xl lg:row-span-2 flex items-center">
+                    <div class="cards">
                         <div class="">
                         <img src="./assets/headphone.png" alt="">
-                        <h3 class="text-white text-xl font-bold my-4">Premium Audio Quality</h3>
+                        <h3 class=" cards-heading">Premium Audio Quality</h3>
                         <p class="text-white opacity-60">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                     </div>
                     </div>
                     <!-- card 2 -->
-                    <div class="c-bg p-10 rounded-4xl lg:col-span-2 flex items-center">
+                    <div class="card-common">
                         <div class="">
                             <img src="./assets/device.png" alt="">
-                            <h3 class="text-white text-xl font-bold my-4">Mobile Friendly</h3>
+                            <h3 class="cards-heading">Mobile Friendly</h3>
                             <p class="text-white opacity-60">Listen on the go with seamless mobile experience and offline downloads.</p>
                         </div>
                     </div>
                     <!-- card 3 -->
-                    <div class="c-bg p-10 rounded-4xl lg:col-span-2 flex items-center">
+                    <div class="card-common">
                         <div class="">
                             <img src="./assets/location.png" alt="">
-                            <h3 class="text-white text-xl font-bold my-4">Global Community</h3>
+                            <h3 class="cards-heading">Global Community</h3>
                             <p class="text-white opacity-60">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                         </div>
                     </div>
                     <!-- card 4 -->
-                    <div class="c-bg p-10 rounded-4xl lg:col-span-2 flex items-center">
+                    <div class="card-common">
                         <div class="">
                             <img src="./assets/zap-fast.png" alt="">
-                            <h3 class="text-white text-xl font-bold my-4">Exclusive Interviews</h3>
+                            <h3 class="cards-heading">Exclusive Interviews</h3>
                             <p class="text-white opacity-60">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                         </div>
                     </div>
                     <!-- card 5 -->
-                    <div class="c-bg p-10 rounded-4xl flex items-center">
+                    <div class="card-5">
                         <div class="">
                             <img src="./assets/resource.png" alt="">
-                            <h3 class="text-white text-xl font-bold my-4">Rich Resources</h3>
+                            <h3 class="cards-heading">Rich Resources</h3>
                             <p class="text-white opacity-60">Access show notes, transcripts, and additional learning materials for every episode.</p>
                         </div>
                     </div>
@@ -149,46 +145,46 @@
 
 <!-- Featured Section -->
         <section>
-            <div class="p-5 lg:px-[200px] lg:py-[120px]">
-                <h1 class="text-3xl lg:text-5xl font-bold mb-10 text-white text-center">Featured Episodes</h1>
-                <div class="grid lg:grid-cols-3 gap-8">
+            <div class="feature-container">
+                <h1 class=" feature-container-heading ">Featured Episodes</h1>
+                <div class="sub-contain">
                     <!-- Card-1 -->
-                    <div class="rounded-3xl feature-bag overflow-hidden">
+                    <div class="common-cardd">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/2f5NHArhhQ0?si=4kPnK42LcZfsVVgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <!-- Card text  -->
-                        <div class="p-6">
-                            <h3 class="text-white text-xl font-bold my-4">The Future of AI in Everyday Life</h3>
-                            <p class="text-white opacity-60 mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-<!-- Duration -->
-                            <div class="text-green-500 flex items-center gap-2">
+                        <div class="feature-cardd-container">
+                            <h3 class="card-textt">The Future of AI in Everyday Life</h3>
+                            <p class="card-textt-2">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+<!-- time -->
+                            <div class="time">
                                 <i class="fa-regular fa-clock"></i>
                                 <p>3.35 min</p>
                             </div>
                         </div>
                     </div>
                     <!-- Card-2 -->
-                    <div class="rounded-3xl feature-bag overflow-hidden">
+                    <div class="common-cardd">
                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jz08p7e6vA0?si=qmMof-yKl9BNdFhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <!-- card text  -->
-                        <div class="p-6">
-                            <h3 class="text-white text-xl font-bold my-4">Building Better Habits for Remote Work</h3>
-                            <p class="text-white opacity-60 mb-3">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-<!-- Duration-->
-                            <div class="text-green-500 flex items-center gap-2">
+                        <div class="feature-cardd-container">
+                            <h3 class="card-textt">Building Better Habits for Remote Work</h3>
+                            <p class="card-textt-2">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+<!-- time-->
+                            <div class="time">
                                 <i class="fa-regular fa-clock"></i>
                                 <p>5.23 min</p>
                             </div>
                         </div>
                     </div>
                     <!-- Card-3 -->
-                    <div class="rounded-3xl feature-bag overflow-hidden">
+                    <div class="common-cardd">
                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t9MJ1gxcJ4w?si=4JvMUdX4kZyBM76O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <!-- card text -->
-                        <div class="p-6">
-                            <h3 class="text-white text-xl font-bold my-4">Career Growth in Tech: A Roadmap</h3>
-                            <p class="text-white opacity-60 mb-3">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-<!-- Duration -->
-                            <div class="text-green-500 flex items-center gap-2">
+                        <div class="feature-cardd-container">
+                            <h3 class="card-textt">Career Growth in Tech: A Roadmap</h3>
+                            <p class="card-textt-2">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+<!-- time -->
+                            <div class="time">
                                 <i class="fa-regular fa-clock"></i>
                                 <p>17.49 min</p>
                             </div>
@@ -198,29 +194,28 @@
             </div>
         </section>
 
-        <!-- Host Section -->
+<!-- Host Section -->
         <section>
             
-            <div class="p-5 lg:px-[200px] lg:pb-[120px]">
-            
-                <h1 class="text-3xl lg:text-5xl font-bold mb-10 text-white text-center">Meet the Host</h1>
+            <div class="host-container">
+                <h1 class="host-heading">Meet the Host</h1>
                 <!-- Host Card -->
-                <div class="host-bg p-10 rounded-[40px] flex items-center gap-6 flex-col lg:flex-row">
+                <div class="host-carddd ">
                     <!-- Card Image -->
-                    <div class="lg:w-1/2 mx-auto">
+                    <div class="  lg:w-1/2 mx-auto">
                         <img class=" rounded-[50%]" src="./assets/OIP.jpg" alt="">
                     </div>
                     <!-- Card content -->
                     <div class="">
-                        <h3 class="text-2xl lg:text-3xl font-bold mb-4 text-white text-center lg:text-start">Jhankar Mahbub</h3>
-                        <p class="text-white opacity-60 mb-5 text-center lg:text-start">Jhankar Mahbub has always been a creative person. As a kid, he found ways to draw on any available surface, coverings that were not meant for writing walls, books, even his father’s arm while he slept. But destiny had other plans. He enrolled for a Bachelor’s degree in Industrial and Production Engineering (IPE) from the highly honored Bangladesh University of Engineering and Technology (BUET), which he completed in 2007.</p>
+                        <h3 class="host-name">Jhankar Mahbub</h3>
+                        <p class=" host-para">Jhankar Mahbub has always been a creative person. As a kid, he found ways to draw on any available surface, coverings that were not meant for writing walls, books, even his father’s arm while he slept. But destiny had other plans. He enrolled for a Bachelor’s degree in Industrial and Production Engineering (IPE) from the highly honored Bangladesh University of Engineering and Technology (BUET), which he completed in 2007.</p>
                         <!-- Social Icons -->
                         <div class="">
-                            <ul class="flex items-center gap-2 justify-center lg:justify-start">
-                                <li class="p-2 border border-stone-800 rounded-full w-10 h-10 flex justify-center items-center"><a href=""><img src="./assets/linkedin.png" alt="" class=""></a></li>
-                                <li class="p-2 border border-stone-800 rounded-full w-10 h-10 flex justify-center items-cente"><a href=""><img src="./assets/x.png" alt="" class=""></a></li>
-                                <li class="p-2 border border-stone-800 rounded-full w-10 h-10 flex justify-center items-cente"><a href=""><img src="./assets/instagram.png" alt="" class=""></a></li>
-                                <li class="p-2 border border-stone-800 rounded-full w-10 h-10 flex justify-center items-cente"><a href=""><img src="./assets/youtube.png" alt="" class=""></a></li>
+                            <ul class=" host-icon">
+                                <li class="icon"><a href=""><img src="./assets/linkedin.png" alt="" class=""></a></li>
+                                <li class="icon"><a href=""><img src="./assets/x.png" alt="" class=""></a></li>
+                                <li class="icon"><a href=""><img src="./assets/instagram.png" alt="" class=""></a></li>
+                                <li class="icon"><a href=""><img src="./assets/youtube.png" alt="" class=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -229,39 +224,40 @@
         </section>
 
       </main>
-      <footer class="bg-[url(./assets/footer-bg.png)] bg-center bg-cover">
-<!-- footer container -->
-        <div class="py-10 lg:py-[120px] flex flex-col justify-center gap-6 lg:gap-8">
-            <div class="flex flex-col justify-center items-center gap-6">
+
+
+      <footer class="footer-image">
+        <div class="footer-container ">
+            <div class="footer-content">
 
                 <div>
-                    <h1 class="text-4xl lg:text-5xl text-white font-extrabold">Tech<span class="linear-t">Wave</span></h1>
+                    <h1 class="f-heading">Tech<span class="linear">Wave</span></h1>
                 </div>
-<!-- Footer Logo -->
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">
+             <!-- Footer Logo -->
+                <div class="footer-logo-container">
                     <!-- Logo-1 -->
-                    <div class="flex items-center justify-center gap-2 text-white opacity-60">
+                    <div class="common-logo-foter">
                         <img src="./assets/spotify.png" alt="">
                         <p>Spotify</p>
                     </div>
                     <!-- Logo-2 -->
-                    <div class="flex items-center justify-center gap-2 text-white opacity-60">
+                    <div class="common-logo-foter">
                         <img src="./assets/apple-podcast.png" alt="">
                         <p>Apple Podcasts</p>
                     </div>
                     <!-- Logo-3 -->
-                    <div class="flex items-center justify-center gap-2 text-white opacity-60">
+                    <div class="common-logo-foter">
                         <img src="./assets/youtube-podcast.png" alt="">
                         <p>YouTube</p>
                     </div>
                     <!-- Logo-4 -->
-                    <div class="flex items-center justify-center gap-2 text-white opacity-60">
+                    <div class="common-logo-foter">
                         <img src="./assets/twitter.png" alt="">
                         <p>Twitter</p>
                     </div>
                 </div>
 <!-- Copyrights -->
-                <div class="text-white opacity-60 border-t border-stone-800 p-2">
+                <div class="copyright">
                     <small>© 2026 TechWave Podcast. All rights reserved.</small>
                 </div>
             </div>
