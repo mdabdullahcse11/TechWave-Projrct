@@ -76,7 +76,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-
+/* navbar  */
 .header {
   display: flex;
   justify-content: space-between;
@@ -506,8 +506,9 @@ background: linear-gradient(47.64deg, rgb(27, 102, 201),rgba(251, 9, 180, 1),rgb
 
          /* lg breakpoint*/
 @media (min-width: 1024px) {
-   .header {
-    padding: 0px , 200px;
+    .header {
+    padding-left: 200px;
+    padding-right: 200px;
   }
     .logo-text{
     font-size: 2.25rem;
